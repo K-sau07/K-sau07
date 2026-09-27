@@ -10,7 +10,7 @@
 
 <br>
 
-```console
+```
 saurabh@ghost ~ % whoami
 
 Software Engineer · 3+ years · Boston, MA
@@ -48,8 +48,7 @@ saurabh@ghost ~ % _
 ### [TAssist](https://github.com/K-sau07/TAssist)
 **AI course doubt resolution** · `386 files`
 
-RAG-grounded answers streamed in real time with slide-level citations. Apache POI
-extracts decks into PostgreSQL + pgvector via Spring AI and Claude.
+RAG-grounded answers streamed in real time with slide-level citations. Apache POI extracts decks into PostgreSQL + pgvector via Spring AI and Claude.
 
 `Java` `Spring AI` `Claude` `pgvector` `React`
 
@@ -59,8 +58,7 @@ extracts decks into PostgreSQL + pgvector via Spring AI and Claude.
 ### [Watchdog](https://github.com/K-sau07/Watchdog)
 **Job posting agent** · `151 files`
 
-Polls Greenhouse, Lever and Ashby on a schedule and surfaces brand-new postings
-minutes after they go live, freshest first.
+Polls Greenhouse, Lever and Ashby on a schedule and surfaces brand-new postings minutes after they go live, freshest first.
 
 `Java` `Spring Boot` `TypeScript` `React`
 
@@ -72,8 +70,7 @@ minutes after they go live, freshest first.
 ### [OpenLens](https://github.com/K-sau07/openlens)
 **OSS contribution guide generator**
 
-Analyses 100+ issues and merged PRs per repo to cut contributor onboarding from
-an hour to under ten minutes. Hexagonal architecture, async Kafka ingestion.
+Analyses 100+ issues and merged PRs per repo to cut contributor onboarding from an hour to under ten minutes. Hexagonal architecture, async Kafka ingestion.
 
 `Java 21` `Spring Boot 3.2` `Kafka` `Flyway` `Redis`
 
@@ -83,8 +80,7 @@ an hour to under ten minutes. Hexagonal architecture, async Kafka ingestion.
 ### [Cloud Infrastructure](https://github.com/K-sau07/tf-aws-infrastructure)
 **Multi-AZ IaC on AWS**
 
-Fault-tolerant multi-AZ deployments with IAM roles and KMS encryption. GitHub
-Actions + Packer AMIs cut deployment cycles ~65%.
+Fault-tolerant multi-AZ deployments with IAM roles and KMS encryption. GitHub Actions + Packer AMIs cut deployment cycles ~65%.
 
 `Terraform` `AWS` `Packer` `GitHub Actions`
 
