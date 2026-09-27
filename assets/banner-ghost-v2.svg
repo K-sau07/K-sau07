@@ -34,6 +34,14 @@
       <feTurbulence type="fractalNoise" baseFrequency="0.85" numOctaves="4" stitchTiles="stitch"/>
       <feColorMatrix type="saturate" values="0"/>
     </filter>
+    <filter id="scanblur" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="9"/>
+    </filter>
+    <linearGradient id="scan" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%"   stop-color="#FFFFFF" stop-opacity="0"/>
+      <stop offset="50%"  stop-color="#FFFFFF" stop-opacity=".34"/>
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0"/>
+    </linearGradient>
     <radialGradient id="vig" cx="50%" cy="48%" r="76%">
       <stop offset="48%"  stop-color="#000" stop-opacity="0"/>
       <stop offset="100%" stop-color="#000" stop-opacity=".94"/>
@@ -83,18 +91,30 @@
   <text x="600" y="262" text-anchor="middle" font-family="Georgia,Times New Roman,serif"
         font-style="italic" font-size="78" letter-spacing="-1" fill="url(#dust)">Kashyap</text>
 
-  <!-- status -->
+  <!-- status: centred, colour-coded, alive -->
+  <!-- 46 chars at ~11.7px each (12px mono + 4.5 tracking) => ~538px wide -->
   <g>
-    <circle cx="420" cy="304" r="3.4" fill="#FFFFFF">
-      <animate attributeName="opacity" values="1;.28;1" dur="2.4s" repeatCount="indefinite"/>
+    <!-- live dot -->
+    <circle cx="323" cy="304" r="3.6" fill="#34D399">
+      <animate attributeName="opacity" values="1;.3;1" dur="2.2s" repeatCount="indefinite"/>
     </circle>
-    <circle cx="420" cy="304" r="4" fill="none" stroke="#FFFFFF" stroke-opacity=".6">
-      <animate attributeName="r" values="4;13;4" dur="2.4s" repeatCount="indefinite"/>
-      <animate attributeName="stroke-opacity" values=".6;0;.6" dur="2.4s" repeatCount="indefinite"/>
+    <circle cx="323" cy="304" r="4" fill="none" stroke="#34D399" stroke-opacity=".75">
+      <animate attributeName="r" values="4;14;4" dur="2.2s" repeatCount="indefinite"/>
+      <animate attributeName="stroke-opacity" values=".75;0;.75" dur="2.2s" repeatCount="indefinite"/>
     </circle>
+
+    <text x="341" y="309" font-family="ui-monospace,SFMono-Regular,Menlo,monospace"
+          font-size="12" letter-spacing="4.5">
+      <tspan fill="#67E8F9">SOFTWARE ENGINEER</tspan><tspan fill="#5A6069"> · </tspan><tspan fill="#C4B5FD">BOSTON</tspan><tspan fill="#5A6069"> · </tspan><tspan fill="#6EE7B7">OPEN TO SWE ROLES</tspan>
+      <animate attributeName="opacity" values=".82;1;.82" dur="4.2s" repeatCount="indefinite"/>
+    </text>
+
+    <!-- a light sweeps left to right across the line -->
+    <rect x="300" y="290" width="170" height="28" fill="url(#scan)" opacity=".38"
+          filter="url(#scanblur)">
+      <animate attributeName="x" values="250;790;250" dur="7s" repeatCount="indefinite"/>
+    </rect>
   </g>
-  <text x="438" y="309" fill="#70767F" font-family="ui-monospace,SFMono-Regular,Menlo,monospace"
-        font-size="12" letter-spacing="4.5">SOFTWARE ENGINEER · BOSTON · OPEN TO SWE ROLES</text>
 
   <rect width="1200" height="360" fill="url(#vig)"/>
   <rect width="1200" height="360" filter="url(#grain)" opacity=".14"/>
