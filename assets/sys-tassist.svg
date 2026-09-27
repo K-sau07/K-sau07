@@ -2,7 +2,7 @@
      role="img" aria-label="TAssist: slides become grounded, cited answers">
   <defs>
     <linearGradient id="panel" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#15171A"/><stop offset="100%" stop-color="#0B0C0E"/>
+      <stop offset="0%" stop-color="#13161F"/><stop offset="100%" stop-color="#0A0C13"/>
     </linearGradient>
     <filter id="fog" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="58"/></filter>
     <filter id="glow" x="-80%" y="-80%" width="260%" height="260%"><feGaussianBlur stdDeviation="7"/></filter>
@@ -16,7 +16,7 @@
   <rect width="1200" height="470" fill="#000"/>
   <g clip-path="url(#rc)">
     <rect x="16" y="14" width="1168" height="442" fill="url(#panel)"/>
-    <ellipse cx="600" cy="300" rx="420" ry="170" fill="#2E343C" opacity=".32" filter="url(#fog)">
+    <ellipse cx="600" cy="300" rx="420" ry="170" fill="#7C3AED" opacity=".26" filter="url(#fog)">
       <animate attributeName="cx" values="420;780;420" dur="28s" repeatCount="indefinite"/>
     </ellipse>
   </g>
@@ -29,9 +29,9 @@
       <rect x="206" y="42" width="140" height="26" rx="13"/>
       <rect x="358" y="42" width="128" height="26" rx="13"/>
     </g>
-    <text x="119" y="59" text-anchor="middle" fill="#CFD3D8">slide-level citations</text>
-    <text x="276" y="59" text-anchor="middle" fill="#CFD3D8">100+ slides</text>
-    <text x="422" y="59" text-anchor="middle" fill="#CFD3D8">streamed</text>
+    <text x="119" y="59" text-anchor="middle" fill="#6EE7B7">slide-level citations</text>
+    <text x="276" y="59" text-anchor="middle" fill="#C4B5FD">100+ slides</text>
+    <text x="422" y="59" text-anchor="middle" fill="#67E8F9">streamed</text>
     <text x="1156" y="59" text-anchor="end" fill="#61666E" letter-spacing="3">TASSIST · GROUNDED ANSWERS</text>
   </g>
 
@@ -65,7 +65,8 @@
 
   <!-- arrow -->
   <path d="M290 222 H392" stroke="#FFF" stroke-opacity=".3" fill="none"/>
-  <path d="M386 217l8 5-8 5z" fill="#FFF" fill-opacity=".45"/>
+  <path d="M386 217l8 5-8 5z" fill="#A78BFA" fill-opacity=".8"/>
+  <circle r="3" fill="#A78BFA"><animateMotion dur="2.6s" repeatCount="indefinite" path="M290 222 H392"/></circle>
 
   <!-- RETRIEVAL: vector space -->
   <g>
@@ -84,17 +85,17 @@
       <line x1="560" y1="222" x2="620" y2="196"/>
       <line x1="560" y1="222" x2="536" y2="272"/>
     </g>
-    <g fill="#FFFFFF" filter="url(#glow)" opacity=".85">
+    <g fill="#A78BFA" filter="url(#glow)" opacity=".95">
       <circle cx="512" cy="186" r="5"/><circle cx="620" cy="196" r="5"/><circle cx="536" cy="272" r="5"/>
     </g>
     <g fill="#FFFFFF">
-      <circle cx="512" cy="186" r="4"/><circle cx="620" cy="196" r="4"/><circle cx="536" cy="272" r="4"/>
+      <circle cx="512" cy="186" r="4" fill="#C4B5FD"/><circle cx="620" cy="196" r="4" fill="#C4B5FD"/><circle cx="536" cy="272" r="4" fill="#C4B5FD"/>
     </g>
     <circle cx="560" cy="222" r="9" fill="none" stroke="#FFF" stroke-opacity=".9"/>
-    <circle cx="560" cy="222" r="3.5" fill="#FFF"/>
-    <circle cx="560" cy="222" r="16" fill="none" stroke="#FFF" stroke-opacity=".5">
+    <circle cx="560" cy="222" r="3.5" fill="#22D3EE"/>
+    <circle cx="560" cy="222" r="16" fill="none" stroke="#22D3EE" stroke-opacity=".7">
       <animate attributeName="r" values="10;30;10" dur="3.4s" repeatCount="indefinite"/>
-      <animate attributeName="stroke-opacity" values=".55;0;.55" dur="3.4s" repeatCount="indefinite"/>
+      <animate attributeName="stroke-opacity" values=".75;0;.75" dur="3.4s" repeatCount="indefinite"/>
     </circle>
     <text x="560" y="352" text-anchor="middle" fill="#7E848C"
           font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="11">pgvector · top-k</text>
@@ -104,7 +105,8 @@
 
   <!-- arrow -->
   <path d="M676 222 H778" stroke="#FFF" stroke-opacity=".3" fill="none"/>
-  <path d="M772 217l8 5-8 5z" fill="#FFF" fill-opacity=".45"/>
+  <path d="M772 217l8 5-8 5z" fill="#34D399" fill-opacity=".8"/>
+  <circle r="3" fill="#34D399"><animateMotion dur="2.6s" begin="1.3s" repeatCount="indefinite" path="M676 222 H778"/></circle>
 
   <!-- ANSWER card -->
   <g>
@@ -118,10 +120,10 @@
       <rect x="820" y="246" width="168" height="6" rx="3" opacity=".55"/>
     </g>
     <!-- citation chip -->
-    <rect x="820" y="266" width="132" height="24" rx="12" fill="none" stroke="#FFF" stroke-opacity=".38"/>
-    <circle cx="836" cy="278" r="3" fill="#FFF"/>
-    <text x="848" y="282" fill="#DDE1E6"
-          font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="10.5">slide 14 · L07</text>
+    <rect x="820" y="266" width="132" height="24" rx="12" fill="#34D39914" stroke="#34D399" stroke-opacity=".65"/>
+    <circle cx="836" cy="278" r="3" fill="#34D399"/>
+    <text x="848" y="282"
+          font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="10.5" fill="#6EE7B7">slide 14 · L07</text>
     <text x="965" y="352" text-anchor="middle" fill="#7E848C"
           font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="11">never invented · always cited</text>
   </g>
