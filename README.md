@@ -1,129 +1,93 @@
 <div align="center">
-  <img src="./assets/ghost-banner.svg" width="100%" alt="Saurabh Kashyap — Software Engineer">
+  <img src="./assets/ghost-banner.svg" width="100%" alt="Saurabh Kashyap">
 </div>
 
 <div align="center">
-  <a href="mailto:saurabh.k@itjobinbox.com"><img src="https://img.shields.io/badge/EMAIL-0D1117?style=for-the-badge&labelColor=0D1117&color=0D1117&logoColor=FFFFFF&logo=maildotru" alt="Email"></a>
-  <a href="https://www.linkedin.com/in/saurabh-kashyap"><img src="https://img.shields.io/badge/LINKEDIN-0D1117?style=for-the-badge&labelColor=0D1117&color=0D1117&logoColor=FFFFFF&logo=linkedin" alt="LinkedIn"></a>
-  <a href="https://github.com/K-sau07?tab=repositories"><img src="https://img.shields.io/badge/REPOSITORIES-0D1117?style=for-the-badge&labelColor=0D1117&color=0D1117&logoColor=FFFFFF&logo=github" alt="Repositories"></a>
-</div>
-
-<br>
-
-```
-saurabh@ghost ~ % whoami
-
-Software Engineer · 3+ years · Boston, MA
-
-I build distributed backend systems in Java and Spring Boot — enterprise API
-gateways, batch processing platforms, and a regulated fintech order-execution
-platform. Strong foundation in AWS, microservices, and performance work, with
-hands-on LLM and RAG product experience.
-
-saurabh@ghost ~ % _
-```
-
-<br>
-
-## ` 01 ` &nbsp;Production systems
-
-> Systems I worked on in production, and what measurably changed.
-
-| System | Scale | What moved |
-|:--|:--|:--|
-| **Enterprise API Gateway** <br> <sub>Spring Cloud Gateway · Redis · MySQL</sub> | `3.2M` req/day <br> `99.95%` uptime | 45+ downstream endpoints consolidated behind one entry point. Client-side latency **−38%**. |
-| **Nightly Data Sync** <br> <sub>Spring Batch · AWS S3 · MySQL</sub> | `1.2M+` records/night | Parallel chunk processing + skip-error handling. Batch completion **−61%**. |
-| **Caching Layer** <br> <sub>Redis · cache-aside · TTL tuning</sub> | `62% → 89%` hit ratio | Database load **−44%** across reporting dashboards. |
-| **Production Observability** <br> <sub>Elasticsearch · Logstash · Kibana</sub> | `8` microservices | Mean time to detect anomalies **14 min → under 4**. |
-| **Fintech Order Execution** <br> <sub>Java · Spring Boot · OpenSearch</sub> | `6,000` orders/day | 5 order types, end-to-end validation and reconciliation. API latency **650ms → 180ms**. |
-
-<br>
-
-## ` 02 ` &nbsp;Selected work
-
-<table>
-<tr>
-<td width="50%" valign="top">
-
-### [TAssist](https://github.com/K-sau07/TAssist)
-**AI course doubt resolution** · `386 files`
-
-RAG-grounded answers streamed in real time with slide-level citations. Apache POI extracts decks into PostgreSQL + pgvector via Spring AI and Claude.
-
-`Java` `Spring AI` `Claude` `pgvector` `React`
-
-</td>
-<td width="50%" valign="top">
-
-### [Watchdog](https://github.com/K-sau07/Watchdog)
-**Job posting agent** · `151 files`
-
-Polls Greenhouse, Lever and Ashby on a schedule and surfaces brand-new postings minutes after they go live, freshest first.
-
-`Java` `Spring Boot` `TypeScript` `React`
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-### [OpenLens](https://github.com/K-sau07/openlens)
-**OSS contribution guide generator**
-
-Analyses 100+ issues and merged PRs per repo to cut contributor onboarding from an hour to under ten minutes. Hexagonal architecture, async Kafka ingestion.
-
-`Java 21` `Spring Boot 3.2` `Kafka` `Flyway` `Redis`
-
-</td>
-<td width="50%" valign="top">
-
-### [Cloud Infrastructure](https://github.com/K-sau07/tf-aws-infrastructure)
-**Multi-AZ IaC on AWS**
-
-Fault-tolerant multi-AZ deployments with IAM roles and KMS encryption. GitHub Actions + Packer AMIs cut deployment cycles ~65%.
-
-`Terraform` `AWS` `Packer` `GitHub Actions`
-
-</td>
-</tr>
-</table>
-
-<br>
-
-## ` 03 ` &nbsp;Stack
-
-```
-Languages     Java · Python · SQL · JavaScript · TypeScript
-Backend       Spring Boot · Spring Batch · Spring Cloud Gateway · Spring Data JPA
-              REST · gRPC · Spring AI
-Architecture  Microservices · Distributed Systems · Event-Driven · Fault-Tolerant
-Cloud         AWS (EC2 · S3 · RDS · Lambda · CloudWatch · OpenSearch)
-              Docker · Kubernetes · Terraform · Jenkins · CI/CD
-Data          PostgreSQL · MySQL · MongoDB · Redis · pgvector · Kafka · RabbitMQ
-Testing       JUnit · Mockito · TDD · GitHub Actions · Packer · ELK
-AI            LLM Integration · RAG · Anthropic Claude
-```
-
-**Certified** — AWS Solutions Architect · Spring Professional · Claude Certified Architect
-
-<br>
-
-## ` 04 ` &nbsp;Activity
-
-<div align="center">
-  <img height="160" alt="GitHub stats"
-    src="https://github-readme-stats.vercel.app/api?username=K-sau07&show_icons=true&hide_border=true&bg_color=0D1117&title_color=FFFFFF&text_color=8C9199&icon_color=FFFFFF&ring_color=FFFFFF&hide_title=true&include_all_commits=true">
-  <img height="160" alt="Top languages"
-    src="https://github-readme-stats.vercel.app/api/top-langs/?username=K-sau07&layout=compact&hide_border=true&bg_color=0D1117&title_color=FFFFFF&text_color=8C9199&langs_count=8">
+  <a href="mailto:saurabh.k@itjobinbox.com"><b>email</b></a> &nbsp;·&nbsp;
+  <a href="https://www.linkedin.com/in/saurabh-kashyap"><b>linkedin</b></a> &nbsp;·&nbsp;
+  <a href="https://github.com/K-sau07?tab=repositories"><b>repositories</b></a>
 </div>
 
 <br>
 
 <div align="center">
-  <sub><code>MS Computer Software Engineering · Northeastern University · May 2026</code></sub>
+  <img src="./assets/ghost-terminal.svg" width="100%" alt="whoami · focus · principles · building">
+</div>
+
+<br>
+
+## Building
+
+**TAssist** — Ask questions about your own course material and get answers that are
+never invented, always cited. Apache POI pulls lecture decks apart, Spring AI embeds them
+into pgvector, and Claude answers only from what it retrieved.
+`386 files` · `277 Java` · `RAG` · [source](https://github.com/K-sau07/TAssist)
+
+<div align="center">
+  <img src="./assets/sys-tassist.svg" width="100%" alt="How TAssist turns a lecture deck into a verifiable answer">
+</div>
+
+<br>
+
+**Watchdog** — A continuous agent that catches fresh job postings minutes after they go
+live. Polls Greenhouse, Lever and Ashby on a schedule, detects genuinely new listings, and
+surfaces them on a radar dashboard, freshest first. Named for the watchdog process pattern:
+watch a system, act the instant it changes.
+`151 files` · `spec-first` · [source](https://github.com/K-sau07/Watchdog)
+
+**OpenLens** — Paste a GitHub repo, answer five questions, get a contribution guide:
+matched issues, files to touch, maintainer patterns. Analyses 100+ issues and merged PRs per
+repo. Java 21 and Spring Boot 3.2 on hexagonal architecture, async ingestion through Kafka.
+`Kafka` · `Flyway` · `Redis` · [source](https://github.com/K-sau07/openlens)
+
+**Ghost OS** — My portfolio is a full operating system in a browser tab. Boot sequence,
+menu bar, magnifying dock, draggable windows, Spotlight, a working shell. Built from scratch.
+`Next.js 16` · `TypeScript` · `Framer Motion` · [source](https://github.com/K-sau07/PortfolioNextjs)
+
+**Cloud-Native Auto-Scaling Infrastructure** — Multi-environment AWS in Terraform:
+multi-AZ, IAM roles, KMS encryption, GitHub Actions and Packer for custom AMIs.
+`Terraform` · `AWS` · `Packer` · [source](https://github.com/K-sau07/tf-aws-infrastructure)
+
+<br>
+
+## Stack
+
+| | |
+|:--|:--|
+| **languages** | java · python · typescript · javascript · sql |
+| **backend** | spring boot · spring batch · spring cloud gateway · jpa · rest · grpc |
+| **ai / ml** | spring ai · claude · rag · pgvector · embeddings |
+| **data** | postgresql · mysql · mongodb · redis · kafka · rabbitmq |
+| **infra** | aws · docker · kubernetes · terraform · packer · github actions |
+| **testing** | junit · mockito · tdd · selenium · elk |
+
+<br>
+
+## Also built
+
+`syncpoll` real-time polling with per-user attribution &nbsp;·&nbsp;
+`livermore` three models answering side by side, one a Transformer hand-coded in PyTorch &nbsp;·&nbsp;
+[`sentiment-aura`](https://livesentimentaura.vercel.app) live speech into generative art &nbsp;·&nbsp;
+`opencodeintel` repository-level code understanding &nbsp;·&nbsp;
+`ev-charging` full-stack reservation platform &nbsp;·&nbsp;
+`selenium-framework` page-object test framework with AES credential handling
+
+<br>
+
+## Now
+
+Shipping Watchdog — the part I care about is detection latency: proving a posting is
+genuinely new rather than re-surfaced, and getting it in front of you before the queue fills.
+After that, TAssist's channel model, so someone can publish a curated Q&A surface over their
+own documents without handing the files over.
+
+Day job is backend engineering — Java and Spring Boot, API gateways, batch pipelines, and the
+caching and observability that keep them upright in production.
+
+<br>
+
+<div align="center">
+  <sub><code>MS Computer Software Engineering · Northeastern · May 2026</code></sub>
   <br><br>
-  <sub>
-    <b>OPEN TO SWE ROLES</b> &nbsp;·&nbsp;
-    <a href="mailto:saurabh.k@itjobinbox.com">saurabh.k@itjobinbox.com</a>
-  </sub>
+  <sub><b>OPEN TO SWE ROLES</b> · <a href="mailto:saurabh.k@itjobinbox.com">saurabh.k@itjobinbox.com</a></sub>
 </div>
