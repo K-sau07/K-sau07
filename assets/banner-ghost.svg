@@ -1,0 +1,101 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 360" width="1200" height="360"
+     role="img" aria-label="Saurabh Kashyap — Software Engineer, Boston">
+  <defs>
+    <!-- the ghost: letterforms dissolve toward the baseline -->
+    <linearGradient id="ghost" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%"   stop-color="#FFFFFF"/>
+      <stop offset="46%"  stop-color="#FFFFFF"/>
+      <stop offset="72%"  stop-color="#FFFFFF" stop-opacity=".58"/>
+      <stop offset="91%"  stop-color="#7E848C" stop-opacity=".18"/>
+      <stop offset="100%" stop-color="#7E848C" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="dust" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%"   stop-color="#9AA0A8"/>
+      <stop offset="50%"  stop-color="#9AA0A8"/>
+      <stop offset="80%"  stop-color="#9AA0A8" stop-opacity=".36"/>
+      <stop offset="100%" stop-color="#9AA0A8" stop-opacity="0"/>
+    </linearGradient>
+
+    <!-- a pale light passes through the name, no colour -->
+    <linearGradient id="sheen" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%"   stop-color="#FFFFFF" stop-opacity="0"/>
+      <stop offset="45%"  stop-color="#FFFFFF" stop-opacity="0"/>
+      <stop offset="50%"  stop-color="#FFFFFF" stop-opacity=".85"/>
+      <stop offset="55%"  stop-color="#FFFFFF" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0"/>
+      <animateTransform attributeName="gradientTransform" type="translate"
+                        values="-1.2 0; 1.2 0; -1.2 0" dur="9s" repeatCount="indefinite"/>
+    </linearGradient>
+
+    <filter id="aurora" x="-60%" y="-60%" width="220%" height="220%"><feGaussianBlur stdDeviation="76"/></filter>
+    <filter id="soft"   x="-60%" y="-60%" width="220%" height="220%"><feGaussianBlur stdDeviation="52"/></filter>
+    <filter id="bloom"  x="-40%" y="-40%" width="180%" height="180%"><feGaussianBlur stdDeviation="17"/></filter>
+    <filter id="grain">
+      <feTurbulence type="fractalNoise" baseFrequency="0.85" numOctaves="4" stitchTiles="stitch"/>
+      <feColorMatrix type="saturate" values="0"/>
+    </filter>
+    <radialGradient id="vig" cx="50%" cy="48%" r="76%">
+      <stop offset="48%"  stop-color="#000" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#000" stop-opacity=".94"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="1200" height="360" fill="#000000"/>
+
+  <!-- fog banks, drifting on independent cycles -->
+  <g filter="url(#aurora)">
+    <ellipse cx="380" cy="150" rx="300" ry="150" fill="#2C3138" opacity=".52">
+      <animate attributeName="cx" values="380;540;380" dur="28s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values=".52;.80;.52" dur="21s" repeatCount="indefinite"/>
+    </ellipse>
+    <ellipse cx="880" cy="140" rx="250" ry="135" fill="#22262C" opacity=".62">
+      <animate attributeName="cx" values="880;720;880" dur="34s" repeatCount="indefinite"/>
+    </ellipse>
+  </g>
+  <g filter="url(#soft)">
+    <ellipse cx="600" cy="268" rx="380" ry="100" fill="#3A4048" opacity=".28">
+      <animate attributeName="cy" values="268;232;268" dur="25s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values=".28;.11;.28" dur="18s" repeatCount="indefinite"/>
+    </ellipse>
+  </g>
+
+  <!-- motes drifting through the fog -->
+  <g fill="#FFFFFF" opacity=".30">
+    <circle r="1.8"><animateMotion dur="26s" repeatCount="indefinite"
+      path="M80 300 C 340 190, 700 320, 1130 170"/></circle>
+    <circle r="1.5"><animateMotion dur="33s" repeatCount="indefinite"
+      path="M1130 90 C 830 250, 400 70, 70 210"/></circle>
+    <circle r="1.2"><animateMotion dur="21s" repeatCount="indefinite"
+      path="M600 46 C 420 200, 790 250, 600 46"/></circle>
+  </g>
+
+  <!-- name -->
+  <g filter="url(#bloom)" opacity=".24">
+    <text x="600" y="186" text-anchor="middle" font-family="Helvetica Neue,Helvetica,Arial,sans-serif"
+          font-size="102" font-weight="800" letter-spacing="-3.4" fill="#FFFFFF">SAURABH</text>
+  </g>
+  <text x="600" y="186" text-anchor="middle" font-family="Helvetica Neue,Helvetica,Arial,sans-serif"
+        font-size="102" font-weight="800" letter-spacing="-3.4" fill="url(#ghost)">SAURABH</text>
+  <!-- sheen rides over the top of the same glyphs -->
+  <text x="600" y="186" text-anchor="middle" font-family="Helvetica Neue,Helvetica,Arial,sans-serif"
+        font-size="102" font-weight="800" letter-spacing="-3.4" fill="url(#sheen)">SAURABH</text>
+
+  <text x="600" y="262" text-anchor="middle" font-family="Georgia,Times New Roman,serif"
+        font-style="italic" font-size="78" letter-spacing="-1" fill="url(#dust)">Kashyap</text>
+
+  <!-- status -->
+  <g>
+    <circle cx="420" cy="304" r="3.4" fill="#FFFFFF">
+      <animate attributeName="opacity" values="1;.28;1" dur="2.4s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="420" cy="304" r="4" fill="none" stroke="#FFFFFF" stroke-opacity=".6">
+      <animate attributeName="r" values="4;13;4" dur="2.4s" repeatCount="indefinite"/>
+      <animate attributeName="stroke-opacity" values=".6;0;.6" dur="2.4s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+  <text x="438" y="309" fill="#70767F" font-family="ui-monospace,SFMono-Regular,Menlo,monospace"
+        font-size="12" letter-spacing="4.5">SOFTWARE ENGINEER · BOSTON · OPEN TO SWE ROLES</text>
+
+  <rect width="1200" height="360" fill="url(#vig)"/>
+  <rect width="1200" height="360" filter="url(#grain)" opacity=".14"/>
+</svg>
