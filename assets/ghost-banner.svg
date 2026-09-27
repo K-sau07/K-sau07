@@ -1,0 +1,107 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 340" width="1200" height="340"
+     role="img" aria-label="Saurabh Kashyap — Software Engineer">
+  <defs>
+    <!-- the ghost: type dissolves toward its baseline -->
+    <linearGradient id="ghost" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%"   stop-color="#FFFFFF"/>
+      <stop offset="44%"  stop-color="#FFFFFF"/>
+      <stop offset="70%"  stop-color="#FFFFFF" stop-opacity=".62"/>
+      <stop offset="90%"  stop-color="#7E848C" stop-opacity=".22"/>
+      <stop offset="100%" stop-color="#7E848C" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="dust" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%"   stop-color="#8C9199"/>
+      <stop offset="48%"  stop-color="#8C9199"/>
+      <stop offset="78%"  stop-color="#8C9199" stop-opacity=".42"/>
+      <stop offset="100%" stop-color="#8C9199" stop-opacity="0"/>
+    </linearGradient>
+
+    <filter id="soft" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="46"/>
+    </filter>
+    <filter id="softer" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="72"/>
+    </filter>
+    <filter id="bloom" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="14"/>
+    </filter>
+
+    <!-- film grain -->
+    <filter id="grain">
+      <feTurbulence type="fractalNoise" baseFrequency="0.85" numOctaves="4" stitchTiles="stitch"/>
+      <feColorMatrix type="saturate" values="0"/>
+    </filter>
+
+    <radialGradient id="vig" cx="50%" cy="46%" r="72%">
+      <stop offset="52%"  stop-color="#000" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#000" stop-opacity=".92"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="1200" height="340" fill="#000000"/>
+
+  <!-- drifting fog banks -->
+  <g filter="url(#softer)" opacity=".55">
+    <ellipse cx="260" cy="150" rx="280" ry="150" fill="#2C3138">
+      <animate attributeName="cx" values="260;400;260" dur="26s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values=".55;.8;.55" dur="19s" repeatCount="indefinite"/>
+    </ellipse>
+    <ellipse cx="900" cy="120" rx="240" ry="130" fill="#23272D">
+      <animate attributeName="cx" values="900;760;900" dur="31s" repeatCount="indefinite"/>
+    </ellipse>
+  </g>
+  <g filter="url(#soft)" opacity=".34">
+    <ellipse cx="620" cy="250" rx="360" ry="110" fill="#3A4048">
+      <animate attributeName="cy" values="250;215;250" dur="23s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values=".34;.14;.34" dur="17s" repeatCount="indefinite"/>
+    </ellipse>
+  </g>
+
+  <!-- eyebrow -->
+  <text x="72" y="92" fill="#6E747C" font-family="ui-monospace,SFMono-Regular,Menlo,monospace"
+        font-size="13" letter-spacing="6.5">[ SOFTWARE ENGINEER · 3+ YEARS · BOSTON ]</text>
+
+  <!-- bloom behind the name -->
+  <g filter="url(#bloom)" opacity=".2">
+    <text x="72" y="196" font-family="Helvetica Neue,Helvetica,Arial,sans-serif"
+          font-size="96" font-weight="800" letter-spacing="-3.4" fill="#FFFFFF">SAURABH</text>
+  </g>
+
+  <!-- the name -->
+  <text x="72" y="196" font-family="Helvetica Neue,Helvetica,Arial,sans-serif"
+        font-size="96" font-weight="800" letter-spacing="-3.4" fill="url(#ghost)">SAURABH</text>
+  <text x="580" y="196" font-family="Georgia,Times New Roman,serif" font-style="italic"
+        font-size="96" letter-spacing="-1.6" fill="url(#dust)">Kashyap</text>
+
+  <!-- hairline -->
+  <line x1="72" y1="238" x2="1128" y2="238" stroke="#FFFFFF" stroke-opacity=".12"/>
+
+  <!-- metrics -->
+  <g font-family="ui-monospace,SFMono-Regular,Menlo,monospace">
+    <text x="72"  y="276" fill="#F0EEE8" font-size="22" font-weight="600">3.2M</text>
+    <text x="72"  y="298" fill="#5F656D" font-size="10.5" letter-spacing="2.6">REQUESTS / DAY</text>
+
+    <text x="268" y="276" fill="#F0EEE8" font-size="22" font-weight="600">99.95%</text>
+    <text x="268" y="298" fill="#5F656D" font-size="10.5" letter-spacing="2.6">UPTIME</text>
+
+    <text x="470" y="276" fill="#F0EEE8" font-size="22" font-weight="600">1.2M</text>
+    <text x="470" y="298" fill="#5F656D" font-size="10.5" letter-spacing="2.6">RECORDS / NIGHT</text>
+
+    <text x="700" y="276" fill="#F0EEE8" font-size="22" font-weight="600">61%</text>
+    <text x="700" y="298" fill="#5F656D" font-size="10.5" letter-spacing="2.6">FASTER BATCHES</text>
+
+    <text x="900" y="276" fill="#F0EEE8" font-size="22" font-weight="600">JAVA / SPRING</text>
+    <text x="900" y="298" fill="#5F656D" font-size="10.5" letter-spacing="2.6">AWS · KAFKA · REDIS</text>
+  </g>
+
+  <!-- dividers between metric columns -->
+  <g stroke="#FFFFFF" stroke-opacity=".10">
+    <line x1="240" y1="258" x2="240" y2="302"/>
+    <line x1="442" y1="258" x2="442" y2="302"/>
+    <line x1="672" y1="258" x2="672" y2="302"/>
+    <line x1="872" y1="258" x2="872" y2="302"/>
+  </g>
+
+  <rect width="1200" height="340" fill="url(#vig)"/>
+  <rect width="1200" height="340" filter="url(#grain)" opacity=".16"/>
+</svg>
