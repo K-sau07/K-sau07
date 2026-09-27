@@ -27,7 +27,7 @@ saurabh@ghost ~ % _
 
 ## ` 01 ` &nbsp;Production systems
 
-> Not side projects — these run in front of real users.
+> Systems I worked on in production, and what measurably changed.
 
 | System | Scale | What moved |
 |:--|:--|:--|
