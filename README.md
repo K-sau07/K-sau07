@@ -104,7 +104,6 @@ and Packer building custom AMIs end to end.
 | **Webapp + Infra** ☁️ | Java 21 service on a Terraform-provisioned AWS stack | `Spring Boot 3.2` `S3` |
 | **Selenium Framework** 🧪 | page-object test framework, AES credential handling | `TestNG` `Maven` |
 | **PackNGo** 🎒 | travel-logistics application | `Java` |
-| **Scientific Calculator** 🧮 | iOS-inspired scientific calculator | `React` |
 
 <br>
 
