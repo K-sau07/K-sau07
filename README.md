@@ -82,7 +82,7 @@ Boot sequence, menu bar with working dropdowns, magnifying dock, draggable and r
 windows, Spotlight, right-click menus, and a shell you can actually type into. Built from
 scratch — no UI kit.
 
-![Next.js](https://img.shields.io/badge/Next.js_16-000000?style=flat-square&logo=nextdotjs&logoColor=white) ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) ![Framer](https://img.shields.io/badge/Framer_Motion-0055FF?style=flat-square&logo=framer&logoColor=white) ![Tailwind](https://img.shields.io/badge/Tailwind-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white) &nbsp;[**source →**](https://github.com/K-sau07/PortfolioNextjs)
+![Next.js](https://img.shields.io/badge/Next.js_16-000000?style=flat-square&logo=nextdotjs&logoColor=white) ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) ![Framer](https://img.shields.io/badge/Framer_Motion-0055FF?style=flat-square&logo=framer&logoColor=white) ![Tailwind](https://img.shields.io/badge/Tailwind-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white) &nbsp;[**source →**](https://github.com/K-sau07/GhostOS)
 
 ### 🟠 &nbsp;Cloud-Native Auto-Scaling Infrastructure
 
