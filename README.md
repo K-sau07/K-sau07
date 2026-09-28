@@ -14,6 +14,21 @@
 
 <br>
 
+## 🌐 &nbsp;Live right now
+
+| | | |
+|:--|:--|:--|
+| [**Ghost OS**](https://ghost-os-pied.vercel.app) 👻 | portfolio as an operating system | `Next.js` |
+| [**Watchdog**](https://watchdog-sand.vercel.app) 🟡 | job radar, polling 134 boards on a schedule | `Spring Boot` `React` |
+| [**TAssist**](https://t-assist.vercel.app) 🟣 | cited answers over your own documents | `Spring AI` `pgvector` |
+| [**OpenLens**](https://openlens-ten.vercel.app) 🔵 | your first open-source PR, mapped out | `Java 21` `Claude` |
+| [**Ecoplate**](https://ecoplate-gamma.vercel.app) 🟢 | surplus food, priced against its expiry | `Spring Boot` `React` |
+| [**Sentiment Aura**](https://livesentimentaura.vercel.app) 🎨 | speech → sentiment → generative art | `p5.js` `Deepgram` |
+
+<sub>Backends run on a free tier and sleep when idle — the first request after a quiet spell takes ~50s to wake. After that it's instant.</sub>
+
+<br>
+
 ## 🛠 &nbsp;Stack
 
 <div align="center">
@@ -36,7 +51,7 @@ Ask questions about your course material and get answers that are **never invent
 cited**. Apache POI pulls lecture decks apart, Spring AI embeds them into pgvector, and Claude
 answers only from what it actually retrieved.
 
-![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white) ![Spring AI](https://img.shields.io/badge/Spring_AI-6DB33F?style=flat-square&logo=spring&logoColor=white) ![Claude](https://img.shields.io/badge/Claude-D97757?style=flat-square&logo=anthropic&logoColor=white) ![pgvector](https://img.shields.io/badge/pgvector-4169E1?style=flat-square&logo=postgresql&logoColor=white) ![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black) &nbsp;`386 files` &nbsp;[**source →**](https://github.com/K-sau07/TAssist)
+![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white) ![Spring AI](https://img.shields.io/badge/Spring_AI-6DB33F?style=flat-square&logo=spring&logoColor=white) ![Claude](https://img.shields.io/badge/Claude-D97757?style=flat-square&logo=anthropic&logoColor=white) ![pgvector](https://img.shields.io/badge/pgvector-4169E1?style=flat-square&logo=postgresql&logoColor=white) ![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black) &nbsp;`386 files` &nbsp;[**live →**](https://t-assist.vercel.app) &nbsp;·&nbsp; [**source →**](https://github.com/K-sau07/TAssist)
 
 <div align="center">
   <img src="./assets/sys-tassist.svg" width="100%" alt="How TAssist turns a lecture deck into a verifiable answer">
@@ -50,7 +65,7 @@ Polls Greenhouse, Lever and Ashby on a schedule, detects genuinely **new** listi
 they appear, and surfaces them on a radar dashboard — freshest first. Named for the watchdog
 process pattern: watch a system, act the instant it changes.
 
-![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white) ![Spring](https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white) ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) ![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black) &nbsp;`151 files` &nbsp;[**source →**](https://github.com/K-sau07/Watchdog)
+![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white) ![Spring](https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white) ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) ![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black) &nbsp;`151 files` &nbsp;[**live →**](https://watchdog-sand.vercel.app) &nbsp;·&nbsp; [**source →**](https://github.com/K-sau07/Watchdog)
 
 ### 🔵 &nbsp;OpenLens &nbsp;·&nbsp; your first open-source PR, mapped out
 
@@ -58,7 +73,7 @@ Paste a GitHub repo, answer five questions, get a contribution guide: matched is
 touch, maintainer patterns. Analyses **100+ issues and merged PRs** per repo and cuts
 onboarding from an hour to under ten minutes. Hexagonal architecture, async Kafka ingestion.
 
-![Java 21](https://img.shields.io/badge/Java_21-ED8B00?style=flat-square&logo=openjdk&logoColor=white) ![Spring](https://img.shields.io/badge/Spring_Boot_3.2-6DB33F?style=flat-square&logo=springboot&logoColor=white) ![Kafka](https://img.shields.io/badge/Kafka-231F20?style=flat-square&logo=apachekafka&logoColor=white) ![Redis](https://img.shields.io/badge/Redis-FF4438?style=flat-square&logo=redis&logoColor=white) &nbsp;[**source →**](https://github.com/K-sau07/openlens)
+![Java 21](https://img.shields.io/badge/Java_21-ED8B00?style=flat-square&logo=openjdk&logoColor=white) ![Spring](https://img.shields.io/badge/Spring_Boot_3.2-6DB33F?style=flat-square&logo=springboot&logoColor=white) ![Kafka](https://img.shields.io/badge/Kafka-231F20?style=flat-square&logo=apachekafka&logoColor=white) ![Redis](https://img.shields.io/badge/Redis-FF4438?style=flat-square&logo=redis&logoColor=white) &nbsp;[**live →**](https://openlens-ten.vercel.app) &nbsp;·&nbsp; [**source →**](https://github.com/K-sau07/openlens)
 
 ### 🟢 &nbsp;Ecoplate &nbsp;·&nbsp; food waste, priced dynamically
 
@@ -66,7 +81,7 @@ Connects grocery stores with customers and NGOs to cut food waste — surplus st
 dynamically discounted before expiry, and what doesn't sell routes to NGOs for free
 distribution. Team project, Java/Spring backend with JaCoCo coverage in CI.
 
-![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white) ![Spring](https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white) ![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black) ![JaCoCo](https://img.shields.io/badge/JaCoCo-C21325?style=flat-square&logo=jest&logoColor=white) &nbsp;`80 Java files` &nbsp;[**source →**](https://github.com/CanNortheastern/CSYE7230Group1)
+![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white) ![Spring](https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white) ![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black) ![JaCoCo](https://img.shields.io/badge/JaCoCo-C21325?style=flat-square&logo=jest&logoColor=white) &nbsp;`80 Java files` &nbsp;[**live →**](https://ecoplate-gamma.vercel.app) &nbsp;·&nbsp; [**source →**](https://github.com/K-sau07/ecoplate)
 
 ### ⚡ &nbsp;EV Charging System &nbsp;·&nbsp; reserve a charger before you drive there
 
@@ -82,7 +97,7 @@ Boot sequence, menu bar with working dropdowns, magnifying dock, draggable and r
 windows, Spotlight, right-click menus, and a shell you can actually type into. Built from
 scratch — no UI kit.
 
-![Next.js](https://img.shields.io/badge/Next.js_16-000000?style=flat-square&logo=nextdotjs&logoColor=white) ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) ![Framer](https://img.shields.io/badge/Framer_Motion-0055FF?style=flat-square&logo=framer&logoColor=white) ![Tailwind](https://img.shields.io/badge/Tailwind-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white) &nbsp;[**source →**](https://github.com/K-sau07/GhostOS)
+![Next.js](https://img.shields.io/badge/Next.js_16-000000?style=flat-square&logo=nextdotjs&logoColor=white) ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) ![Framer](https://img.shields.io/badge/Framer_Motion-0055FF?style=flat-square&logo=framer&logoColor=white) ![Tailwind](https://img.shields.io/badge/Tailwind-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white) &nbsp;[**live →**](https://ghost-os-pied.vercel.app) &nbsp;·&nbsp; [**source →**](https://github.com/K-sau07/GhostOS)
 
 ### 🟠 &nbsp;Cloud-Native Auto-Scaling Infrastructure
 
