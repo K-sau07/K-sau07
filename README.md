@@ -14,22 +14,22 @@
 
 <br>
 
-## 🌐 &nbsp;Live right now
+## Live right now
 
 | | | |
 |:--|:--|:--|
-| [**Ghost OS**](https://ghost-os-pied.vercel.app) 👻 | portfolio as an operating system | `Next.js` |
-| [**Watchdog**](https://watchdog-sand.vercel.app) 🟡 | job radar, polling 134 boards on a schedule | `Spring Boot` `React` |
-| [**TAssist**](https://t-assist.vercel.app) 🟣 | cited answers over your own documents | `Spring AI` `pgvector` |
-| [**OpenLens**](https://openlens-ten.vercel.app) 🔵 | your first open-source PR, mapped out | `Java 21` `Claude` |
-| [**Ecoplate**](https://ecoplate-gamma.vercel.app) 🟢 | surplus food, priced against its expiry | `Spring Boot` `React` |
-| [**Sentiment Aura**](https://livesentimentaura.vercel.app) 🎨 | speech → sentiment → generative art | `p5.js` `Deepgram` |
+| [**Ghost OS**](https://ghost-os-pied.vercel.app) | portfolio as an operating system | `Next.js` |
+| [**Watchdog**](https://watchdog-sand.vercel.app) | job radar, polling 134 boards on a schedule | `Spring Boot` `React` |
+| [**TAssist**](https://t-assist.vercel.app) | cited answers over your own documents | `Spring AI` `pgvector` |
+| [**OpenLens**](https://openlens-ten.vercel.app) | your first open-source PR, mapped out | `Java 21` `Claude` |
+| [**Ecoplate**](https://ecoplate-gamma.vercel.app) | surplus food, priced against its expiry | `Spring Boot` `React` |
+| [**Sentiment Aura**](https://livesentimentaura.vercel.app) | speech → sentiment → generative art | `p5.js` `Deepgram` |
 
 <sub>Backends run on a free tier and sleep when idle — the first request after a quiet spell takes ~50s to wake. After that it's instant.</sub>
 
 <br>
 
-## 🛠 &nbsp;Stack
+## Stack
 
 <div align="center">
 
@@ -43,12 +43,12 @@
 
 <br>
 
-## 🚀 &nbsp;Building
+## Building
 
-### 🟣 &nbsp;TAssist &nbsp;·&nbsp; grounded answers over your own documents
+### TAssist &nbsp;·&nbsp; grounded answers over your own documents
 
-Ask questions about your course material and get answers that are **never invented, always
-cited**. Apache POI pulls lecture decks apart, Spring AI embeds them into pgvector, and Claude
+Ask questions about your course material and get an answer that points back to the slide it
+came from. Apache POI pulls lecture decks apart, Spring AI embeds them into pgvector, and Claude
 answers only from what it actually retrieved.
 
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white) ![Spring AI](https://img.shields.io/badge/Spring_AI-6DB33F?style=flat-square&logo=spring&logoColor=white) ![Claude](https://img.shields.io/badge/Claude-D97757?style=flat-square&logo=anthropic&logoColor=white) ![pgvector](https://img.shields.io/badge/pgvector-4169E1?style=flat-square&logo=postgresql&logoColor=white) ![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black) &nbsp;`386 files` &nbsp;[**live →**](https://t-assist.vercel.app) &nbsp;·&nbsp; [**source →**](https://github.com/K-sau07/TAssist)
@@ -59,23 +59,23 @@ answers only from what it actually retrieved.
 
 <br>
 
-### 🟡 &nbsp;Watchdog &nbsp;·&nbsp; catches job postings minutes after they go live
+### Watchdog &nbsp;·&nbsp; catches job postings minutes after they go live
 
-Polls Greenhouse, Lever and Ashby on a schedule, detects genuinely **new** listings the moment
-they appear, and surfaces them on a radar dashboard — freshest first. Named for the watchdog
-process pattern: watch a system, act the instant it changes.
+Polls Greenhouse, Lever and Ashby on a schedule, works out which listings are genuinely new
+rather than re-surfaced, and puts them on a radar dashboard, freshest first. Named after the
+watchdog process pattern.
 
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white) ![Spring](https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white) ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) ![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black) &nbsp;`151 files` &nbsp;[**live →**](https://watchdog-sand.vercel.app) &nbsp;·&nbsp; [**source →**](https://github.com/K-sau07/Watchdog)
 
-### 🔵 &nbsp;OpenLens &nbsp;·&nbsp; your first open-source PR, mapped out
+### OpenLens &nbsp;·&nbsp; your first open-source PR, mapped out
 
 Paste a GitHub repo, answer five questions, get a contribution guide: matched issues, files to
-touch, maintainer patterns. Analyses **100+ issues and merged PRs** per repo and cuts
-onboarding from an hour to under ten minutes. Hexagonal architecture, async Kafka ingestion.
+touch, maintainer patterns. It reads 100+ issues and merged PRs per repo to work out how that
+project actually takes contributions. Hexagonal architecture, async Kafka ingestion.
 
 ![Java 21](https://img.shields.io/badge/Java_21-ED8B00?style=flat-square&logo=openjdk&logoColor=white) ![Spring](https://img.shields.io/badge/Spring_Boot_3.2-6DB33F?style=flat-square&logo=springboot&logoColor=white) ![Kafka](https://img.shields.io/badge/Kafka-231F20?style=flat-square&logo=apachekafka&logoColor=white) ![Redis](https://img.shields.io/badge/Redis-FF4438?style=flat-square&logo=redis&logoColor=white) &nbsp;[**live →**](https://openlens-ten.vercel.app) &nbsp;·&nbsp; [**source →**](https://github.com/K-sau07/openlens)
 
-### 🟢 &nbsp;Ecoplate &nbsp;·&nbsp; food waste, priced dynamically
+### Ecoplate &nbsp;·&nbsp; food waste, priced dynamically
 
 Connects grocery stores with customers and NGOs to cut food waste — surplus stock gets
 dynamically discounted before expiry, and what doesn't sell routes to NGOs for free
@@ -83,11 +83,11 @@ distribution. Team project, Java/Spring backend with JaCoCo coverage in CI.
 
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white) ![Spring](https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white) ![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black) ![JaCoCo](https://img.shields.io/badge/JaCoCo-C21325?style=flat-square&logo=jest&logoColor=white) &nbsp;`80 Java files` &nbsp;[**live →**](https://ecoplate-gamma.vercel.app) &nbsp;·&nbsp; [**source →**](https://github.com/K-sau07/ecoplate)
 
-### ⚡ &nbsp;EV Charging System &nbsp;·&nbsp; reserve a charger before you drive there
+### EV Charging System &nbsp;·&nbsp; reserve a charger before you drive there
 
 Full-stack platform for EV owners and station operators. Email-OTP auth, live charging-session
 timers, automated reservation management and integrated billing, over a normalised SQL Server
-schema. Solves the actual problem: turning up to a charger that's already taken.
+schema. The point is not driving out to a charger someone else is already using.
 
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black) ![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black) ![Node](https://img.shields.io/badge/Node.js-5FA04E?style=flat-square&logo=nodedotjs&logoColor=white) ![SQL Server](https://img.shields.io/badge/SQL_Server-CC2927?style=flat-square&logo=microsoftsqlserver&logoColor=white) &nbsp;[**source →**](https://github.com/K-sau07/EV_CHARGING_SYSTEM)
 
@@ -99,7 +99,7 @@ scratch — no UI kit.
 
 ![Next.js](https://img.shields.io/badge/Next.js_16-000000?style=flat-square&logo=nextdotjs&logoColor=white) ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) ![Framer](https://img.shields.io/badge/Framer_Motion-0055FF?style=flat-square&logo=framer&logoColor=white) ![Tailwind](https://img.shields.io/badge/Tailwind-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white) &nbsp;[**live →**](https://ghost-os-pied.vercel.app) &nbsp;·&nbsp; [**source →**](https://github.com/K-sau07/GhostOS)
 
-### 🟠 &nbsp;Cloud-Native Auto-Scaling Infrastructure
+### Cloud-Native Auto-Scaling Infrastructure
 
 Multi-environment AWS in Terraform — multi-AZ, IAM roles, KMS encryption, with GitHub Actions
 and Packer building custom AMIs end to end.
@@ -108,21 +108,21 @@ and Packer building custom AMIs end to end.
 
 <br>
 
-## 📦 &nbsp;Also built
+## Also built
 
 | | | |
 |:--|:--|:--|
-| [**Sentiment Aura**](https://livesentimentaura.vercel.app) 🎨 | live speech → sentiment → generative art | `p5.js` `Deepgram` `Groq` |
-| **Livermore** 📈 | three models side by side — one a Transformer hand-coded in PyTorch | `Python` `RAG` `PyTorch` |
-| **SyncPoll** 📊 | real-time polling where attendance is a by-product of answering | `Java` `WebSocket` |
-| **OpenCodeIntel** 🔍 | repository-level code understanding | `Python` `TypeScript` |
-| **Webapp + Infra** ☁️ | Java 21 service on a Terraform-provisioned AWS stack | `Spring Boot 3.2` `S3` |
-| **Selenium Framework** 🧪 | page-object test framework, AES credential handling | `TestNG` `Maven` |
-| **PackNGo** 🎒 | travel-logistics application | `Java` |
+| [**Sentiment Aura**](https://livesentimentaura.vercel.app) | live speech → sentiment → generative art | `p5.js` `Deepgram` `Groq` |
+| **Livermore** | three models side by side — one a Transformer hand-coded in PyTorch | `Python` `RAG` `PyTorch` |
+| **SyncPoll** | real-time polling where attendance is a by-product of answering | `Java` `WebSocket` |
+| **OpenCodeIntel** | repository-level code understanding | `Python` `TypeScript` |
+| **Webapp + Infra** | Java 21 service on a Terraform-provisioned AWS stack | `Spring Boot 3.2` `S3` |
+| **Selenium Framework** | page-object test framework, AES credential handling | `TestNG` `Maven` |
+| **PackNGo** | travel-logistics application | `Java` |
 
 <br>
 
-## 📊 &nbsp;Activity
+## Activity
 
 <div align="center">
   <img height="150" alt="stats" src="https://github-readme-stats.vercel.app/api?username=K-sau07&show_icons=true&hide_border=true&bg_color=0D1117&title_color=A78BFA&text_color=9BA3B4&icon_color=22D3EE&hide_title=true&include_all_commits=true">
@@ -131,7 +131,7 @@ and Packer building custom AMIs end to end.
 
 <br>
 
-## 💭 &nbsp;Now
+## Now
 
 Shipping **Watchdog** — the interesting part is detection latency: proving a posting is
 genuinely new rather than re-surfaced, and getting it in front of you before the queue fills.
