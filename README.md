@@ -45,6 +45,18 @@
 
 ## Building
 
+### Repo-Sensei &nbsp;·&nbsp; ask questions about a codebase you've never read
+
+Hybrid keyword + vector search over a code graph that links UI, API and database, so you can
+trace a feature from the page a user clicks to the table it writes. Indexes 2.1M lines across
+11.4K files in about 3.5 minutes, and traces page-to-database 2.3x more accurately than
+retrieval alone — recall 0.27 → 0.62 on a 20-flow benchmark. An MCP server puts all of it
+inside Claude Code, VS Code and Cursor over OAuth 2.1, with tool responses cut 78% to fit
+agent context. AI-written code runs in a gVisor sandbox with no network access, behind 4,000+
+automated tests.
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white) ![PostgreSQL](https://img.shields.io/badge/pgvector-4169E1?style=flat-square&logo=postgresql&logoColor=white) ![Celery](https://img.shields.io/badge/Celery-37814A?style=flat-square&logo=celery&logoColor=white) ![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white) ![MCP](https://img.shields.io/badge/MCP-D97757?style=flat-square&logo=anthropic&logoColor=white) &nbsp;`2.1M lines indexed` &nbsp;[**source →**](https://github.com/K-sau07/repo-sensei)
+
 ### TAssist &nbsp;·&nbsp; grounded answers over your own documents
 
 Ask questions about your course material and get an answer that points back to the slide it
