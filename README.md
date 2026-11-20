@@ -8,7 +8,7 @@
 <a href="https://reposensei.com">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="./assets/repo-sensei-dark.svg">
-    <img src="./assets/repo-sensei-light.svg" width="100%" alt="repo-sensei traces a feature from the login form down to the User table, hop by hop, with the file and line of each step.">
+    <img src="./assets/repo-sensei-light.svg" width="100%" alt="repo-sensei, a search engine for your whole codebase: a question is traced from the login form down to the User table, and the answer cites the exact lines.">
   </picture>
 </a>
 
