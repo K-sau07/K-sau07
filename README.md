@@ -22,30 +22,43 @@ I hold it to a benchmark I built and published. 0.95 hop recall on the repo I tu
 
 <br>
 
-### Also running
+<picture><source media="(prefers-color-scheme: dark)" srcset="./assets/section-running-dark.svg"><img src="./assets/section-running-light.svg" width="100%" alt="Also running"></picture>
 
-**[OpenLens](https://openlens-ten.vercel.app)** &nbsp; Your first open-source PR, mapped out.<br>
-<sub>Java 21 · Spring Boot · Kafka · Claude &nbsp;·&nbsp; [code](https://github.com/K-sau07/openlens)</sub>
+<p>
+<a href="https://openlens-ten.vercel.app"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/card-openlens-dark.svg"><img src="./assets/card-openlens-light.svg" width="49%" alt="OpenLens: your first open-source PR, mapped out"></picture></a>
+&nbsp;
+<a href="https://t-assist.vercel.app"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/card-tassist-dark.svg"><img src="./assets/card-tassist-light.svg" width="49%" alt="TAssist: answers over lecture slides, each pointing back to its slide"></picture></a>
+</p>
 
-**[TAssist](https://t-assist.vercel.app)** &nbsp; Answers over your lecture slides, each one pointing back to its slide.<br>
-<sub>Spring AI · pgvector · React &nbsp;·&nbsp; [code](https://github.com/K-sau07/TAssist)</sub>
+<p>
+<a href="https://watchdog-sand.vercel.app"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/card-watchdog-dark.svg"><img src="./assets/card-watchdog-light.svg" width="49%" alt="Watchdog: new job postings from Greenhouse, Lever and Ashby"></picture></a>
+&nbsp;
+<a href="https://ghost-os-pied.vercel.app"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/card-ghostos-dark.svg"><img src="./assets/card-ghostos-light.svg" width="49%" alt="Ghost OS: my portfolio as an operating system"></picture></a>
+</p>
 
-**[Watchdog](https://watchdog-sand.vercel.app)** &nbsp; New postings from Greenhouse, Lever and Ashby, freshest first.<br>
-<sub>Spring Boot · TypeScript · React &nbsp;·&nbsp; [code](https://github.com/K-sau07/Watchdog)</sub>
+<p>
+<a href="https://ecoplate-gamma.vercel.app"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/card-ecoplate-dark.svg"><img src="./assets/card-ecoplate-light.svg" width="49%" alt="Ecoplate: surplus groceries discounted before they expire"></picture></a>
+&nbsp;
+<a href="https://livesentimentaura.vercel.app"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/card-aura-dark.svg"><img src="./assets/card-aura-light.svg" width="49%" alt="Sentiment Aura: live speech drawn as generative art"></picture></a>
+</p>
 
-**[Ghost OS](https://ghost-os-pied.vercel.app)** &nbsp; My portfolio, as an operating system. No UI kit.<br>
-<sub>Next.js · TypeScript · Framer Motion &nbsp;·&nbsp; [code](https://github.com/K-sau07/GhostOS)</sub>
-
-**[Ecoplate](https://ecoplate-gamma.vercel.app)** &nbsp; Surplus groceries, discounted before they expire.<br>
-<sub>Spring Boot · React · JaCoCo &nbsp;·&nbsp; [code](https://github.com/K-sau07/ecoplate)</sub>
-
-<sub><i>The demos run on free tiers and nap when idle. Give the first request about 50 seconds.</i></sub>
+<p align="center"><sub><i>The demos run on free tiers and nap when idle. Give the first request about 50 seconds.</i></sub></p>
 
 <br>
 
-### Also built
+<picture><source media="(prefers-color-scheme: dark)" srcset="./assets/section-built-dark.svg"><img src="./assets/section-built-light.svg" width="100%" alt="Before that"></picture>
 
-AWS in Terraform with Packer-built AMIs ([code](https://github.com/K-sau07/tf-aws-infrastructure)), an EV charger reservation platform ([code](https://github.com/K-sau07/EV_CHARGING_SYSTEM)), a Transformer written by hand in PyTorch ([Livermore](https://github.com/K-sau07/livermore-trading-bot)), live polling over WebSockets ([SyncPoll](https://github.com/K-sau07/Syncpoll)), and speech turned into generative art ([Sentiment Aura](https://livesentimentaura.vercel.app)).
+<p>
+<a href="https://github.com/K-sau07/tf-aws-infrastructure"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/mini-infra-dark.svg"><img src="./assets/mini-infra-light.svg" width="49%" alt="Cloud-native AWS in Terraform"></picture></a>
+&nbsp;
+<a href="https://github.com/K-sau07/EV_CHARGING_SYSTEM"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/mini-ev-dark.svg"><img src="./assets/mini-ev-light.svg" width="49%" alt="EV Charging System"></picture></a>
+</p>
+
+<p>
+<a href="https://github.com/K-sau07/livermore-trading-bot"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/mini-livermore-dark.svg"><img src="./assets/mini-livermore-light.svg" width="49%" alt="Livermore: a Transformer written by hand in PyTorch"></picture></a>
+&nbsp;
+<a href="https://github.com/K-sau07/Syncpoll"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/mini-syncpoll-dark.svg"><img src="./assets/mini-syncpoll-light.svg" width="49%" alt="SyncPoll: live polling over WebSockets"></picture></a>
+</p>
 
 <br>
 

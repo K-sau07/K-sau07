@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="580" height="330" viewBox="0 0 580 330" role="img" aria-label="OpenLens: Your first open-source PR, mapped out. Five questions, then a guide for that repo.">
+<rect x="0.5" y="0.5" width="579" height="329" rx="14" fill="none" stroke="#30363d"/>
+<circle cx="36" cy="40" r="3" fill="#d2a8ff"/>
+<text x="48" y="44.5" font-family="ui-monospace, 'SF Mono', SFMono-Regular, Menlo, Consolas, monospace" font-size="11" letter-spacing="2.2" fill="#8b949e">OPEN SOURCE</text>
+<text x="32" y="88" font-family="Georgia, 'Iowan Old Style', 'Times New Roman', serif" font-size="32" fill="#e6edf3">OpenLens</text>
+<text x="32" y="120" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="15.5" fill="#8b949e">Your first open-source PR, mapped out.</text><text x="32" y="142" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="15.5" fill="#8b949e">Five questions, then a guide for that repo.</text>
+<g transform="translate(0,0)"><line x1="120" y1="208" x2="460" y2="208" stroke="#30363d" stroke-width="1.5" stroke-dasharray="4 5"/>
+<circle cx="120" cy="208" r="7" fill="#161b22" stroke="#d2a8ff" stroke-width="1.5"/><text x="120" y="242" text-anchor="middle" font-family="ui-monospace, 'SF Mono', SFMono-Regular, Menlo, Consolas, monospace" font-size="12" fill="#8b949e">repo</text><circle cx="290" cy="208" r="7" fill="#161b22" stroke="#d2a8ff" stroke-width="1.5"/><text x="290" y="242" text-anchor="middle" font-family="ui-monospace, 'SF Mono', SFMono-Regular, Menlo, Consolas, monospace" font-size="12" fill="#8b949e">5 questions</text><circle cx="460" cy="208" r="7" fill="#161b22" stroke="#d2a8ff" stroke-width="1.5"/><text x="460" y="242" text-anchor="middle" font-family="ui-monospace, 'SF Mono', SFMono-Regular, Menlo, Consolas, monospace" font-size="12" fill="#8b949e">first PR</text>
+<circle cy="208" r="4" fill="#d2a8ff"><animate attributeName="cx" values="120;120;290;290;460;460" keyTimes="0;.15;.4;.55;.85;1" dur="5s" repeatCount="indefinite"/></circle></g>
+<line x1="32" y1="278" x2="548" y2="278" stroke="#30363d"/>
+<text x="32" y="306" font-family="ui-monospace, 'SF Mono', SFMono-Regular, Menlo, Consolas, monospace" font-size="12" fill="#8b949e">Java 21 · Spring Boot · Kafka · Claude</text>
+<text x="548" y="306" text-anchor="end" font-family="ui-monospace, 'SF Mono', SFMono-Regular, Menlo, Consolas, monospace" font-size="12" fill="#d2a8ff">live ↗</text>
+</svg>
