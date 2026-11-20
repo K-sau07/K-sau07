@@ -1,162 +1,54 @@
-<div align="center">
-  <img src="./assets/banner-ghost-v2.svg" width="100%" alt="Saurabh Kashyap — Software Engineer, Boston">
-</div>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/hero-dark.svg">
+  <img src="./assets/hero-light.svg" width="100%" alt="Saurabh Kashyap. Boston, software engineer. I build backends, and the tools that help people understand them.">
+</picture>
 
-<div align="center">
-  <a href="mailto:saurabh.k@itjobinbox.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"></a>
-  <a href="https://www.linkedin.com/in/saurabh-kashyap-b5a4ab22a/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
-  <a href="https://github.com/K-sau07?tab=repositories"><img src="https://img.shields.io/badge/Repositories-181717?style=for-the-badge&logo=github&logoColor=white" alt="Repositories"></a>
-</div>
+<br><br>
 
-<div align="center">
-  <img src="./assets/terminal.svg" width="100%" alt="whoami · focus · building · status">
-</div>
+<a href="https://reposensei.com">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/repo-sensei-dark.svg">
+    <img src="./assets/repo-sensei-light.svg" width="100%" alt="repo-sensei traces a feature from the login form down to the User table, hop by hop, with the file and line of each step.">
+  </picture>
+</a>
 
-<br>
+<br><br>
 
-## Live right now
+It started with [OpenLens](https://openlens-ten.vercel.app), which found you a first open-source issue and the files to touch. OpenLens never read the code. repo-sensei does: it answers questions about a repository with citations to the exact lines, traces features across TypeScript, Python and Java, and plugs into Claude Code, Cursor and VS Code over MCP.
 
-| | | |
-|:--|:--|:--|
-| [**Ghost OS**](https://ghost-os-pied.vercel.app) | portfolio as an operating system | `Next.js` |
-| [**Watchdog**](https://watchdog-sand.vercel.app) | job radar, polling 134 boards on a schedule | `Spring Boot` `React` |
-| [**TAssist**](https://t-assist.vercel.app) | cited answers over your own documents | `Spring AI` `pgvector` |
-| [**OpenLens**](https://openlens-ten.vercel.app) | your first open-source PR, mapped out | `Java 21` `Claude` |
-| [**Ecoplate**](https://ecoplate-gamma.vercel.app) | surplus food, priced against its expiry | `Spring Boot` `React` |
-| [**Sentiment Aura**](https://livesentimentaura.vercel.app) | speech → sentiment → generative art | `p5.js` `Deepgram` |
+I hold it to a benchmark I built and published. 0.95 hop recall on the repo I tuned it on, 0.23 to 0.33 on repos it has never seen. The second number is the one I'm working on.
 
-<sub>Backends run on a free tier and sleep when idle — the first request after a quiet spell takes ~50s to wake. After that it's instant.</sub>
+**[Try it](https://reposensei.com)** &nbsp;·&nbsp; [Source](https://github.com/K-sau07/repo-sensei) &nbsp;·&nbsp; [CrossLayerBench](https://github.com/K-sau07/crosslayerbench) &nbsp;·&nbsp; [How it's measured](https://reposensei.com/benchmarks)
 
 <br>
 
-## Stack
+### Also running
 
-<div align="center">
+**[OpenLens](https://openlens-ten.vercel.app)** &nbsp; Your first open-source PR, mapped out.<br>
+<sub>Java 21 · Spring Boot · Kafka · Claude &nbsp;·&nbsp; [code](https://github.com/K-sau07/openlens)</sub>
 
-![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white) ![Spring](https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white) ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) ![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black) ![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white) ![Node](https://img.shields.io/badge/Node.js-5FA04E?style=flat-square&logo=nodedotjs&logoColor=white)
+**[TAssist](https://t-assist.vercel.app)** &nbsp; Answers over your lecture slides, each one pointing back to its slide.<br>
+<sub>Spring AI · pgvector · React &nbsp;·&nbsp; [code](https://github.com/K-sau07/TAssist)</sub>
 
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white) ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white) ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white) ![Redis](https://img.shields.io/badge/Redis-FF4438?style=flat-square&logo=redis&logoColor=white) ![Kafka](https://img.shields.io/badge/Kafka-231F20?style=flat-square&logo=apachekafka&logoColor=white) ![Elasticsearch](https://img.shields.io/badge/ELK-005571?style=flat-square&logo=elasticsearch&logoColor=white)
+**[Watchdog](https://watchdog-sand.vercel.app)** &nbsp; New postings from Greenhouse, Lever and Ashby, freshest first.<br>
+<sub>Spring Boot · TypeScript · React &nbsp;·&nbsp; [code](https://github.com/K-sau07/Watchdog)</sub>
 
-![AWS](https://img.shields.io/badge/AWS-FF9900?style=flat-square&logo=amazonwebservices&logoColor=white) ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white) ![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white) ![Terraform](https://img.shields.io/badge/Terraform-844FBA?style=flat-square&logo=terraform&logoColor=white) ![GitHub Actions](https://img.shields.io/badge/Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white) ![Claude](https://img.shields.io/badge/Claude-D97757?style=flat-square&logo=anthropic&logoColor=white)
+**[Ghost OS](https://ghost-os-pied.vercel.app)** &nbsp; My portfolio, as an operating system. No UI kit.<br>
+<sub>Next.js · TypeScript · Framer Motion &nbsp;·&nbsp; [code](https://github.com/K-sau07/GhostOS)</sub>
 
-</div>
+**[Ecoplate](https://ecoplate-gamma.vercel.app)** &nbsp; Surplus groceries, discounted before they expire.<br>
+<sub>Spring Boot · React · JaCoCo &nbsp;·&nbsp; [code](https://github.com/K-sau07/ecoplate)</sub>
 
-<br>
-
-## Building
-
-### Repo-Sensei &nbsp;·&nbsp; ask questions about a codebase you've never read
-
-Hybrid keyword + vector search over a code graph that links UI, API and database, so you can
-trace a feature from the page a user clicks to the table it writes. Indexes 2.1M lines across
-11.4K files in about 3.5 minutes, and traces page-to-database 2.3x more accurately than
-retrieval alone — recall 0.27 → 0.62 on a 20-flow benchmark. An MCP server puts all of it
-inside Claude Code, VS Code and Cursor over OAuth 2.1, with tool responses cut 78% to fit
-agent context. AI-written code runs in a gVisor sandbox with no network access, behind 4,000+
-automated tests.
-
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white) ![PostgreSQL](https://img.shields.io/badge/pgvector-4169E1?style=flat-square&logo=postgresql&logoColor=white) ![Celery](https://img.shields.io/badge/Celery-37814A?style=flat-square&logo=celery&logoColor=white) ![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white) ![MCP](https://img.shields.io/badge/MCP-D97757?style=flat-square&logo=anthropic&logoColor=white) &nbsp;`2.1M lines indexed` &nbsp;[**source →**](https://github.com/K-sau07/repo-sensei)
-
-### TAssist &nbsp;·&nbsp; grounded answers over your own documents
-
-Ask questions about your course material and get an answer that points back to the slide it
-came from. Apache POI pulls lecture decks apart, Spring AI embeds them into pgvector, and Claude
-answers only from what it actually retrieved.
-
-![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white) ![Spring AI](https://img.shields.io/badge/Spring_AI-6DB33F?style=flat-square&logo=spring&logoColor=white) ![Claude](https://img.shields.io/badge/Claude-D97757?style=flat-square&logo=anthropic&logoColor=white) ![pgvector](https://img.shields.io/badge/pgvector-4169E1?style=flat-square&logo=postgresql&logoColor=white) ![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black) &nbsp;`386 files` &nbsp;[**live →**](https://t-assist.vercel.app) &nbsp;·&nbsp; [**source →**](https://github.com/K-sau07/TAssist)
-
-<div align="center">
-  <img src="./assets/sys-tassist.svg" width="100%" alt="How TAssist turns a lecture deck into a verifiable answer">
-</div>
+<sub><i>The demos run on free tiers and nap when idle. Give the first request about 50 seconds.</i></sub>
 
 <br>
 
-### Watchdog &nbsp;·&nbsp; catches job postings minutes after they go live
+### Also built
 
-Polls Greenhouse, Lever and Ashby on a schedule, works out which listings are genuinely new
-rather than re-surfaced, and puts them on a radar dashboard, freshest first. Named after the
-watchdog process pattern.
-
-![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white) ![Spring](https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white) ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) ![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black) &nbsp;`151 files` &nbsp;[**live →**](https://watchdog-sand.vercel.app) &nbsp;·&nbsp; [**source →**](https://github.com/K-sau07/Watchdog)
-
-### OpenLens &nbsp;·&nbsp; your first open-source PR, mapped out
-
-Paste a GitHub repo, answer five questions, get a contribution guide: matched issues, files to
-touch, maintainer patterns. It reads 100+ issues and merged PRs per repo to work out how that
-project actually takes contributions. Hexagonal architecture, async Kafka ingestion.
-
-![Java 21](https://img.shields.io/badge/Java_21-ED8B00?style=flat-square&logo=openjdk&logoColor=white) ![Spring](https://img.shields.io/badge/Spring_Boot_3.2-6DB33F?style=flat-square&logo=springboot&logoColor=white) ![Kafka](https://img.shields.io/badge/Kafka-231F20?style=flat-square&logo=apachekafka&logoColor=white) ![Redis](https://img.shields.io/badge/Redis-FF4438?style=flat-square&logo=redis&logoColor=white) &nbsp;[**live →**](https://openlens-ten.vercel.app) &nbsp;·&nbsp; [**source →**](https://github.com/K-sau07/openlens)
-
-### Ecoplate &nbsp;·&nbsp; food waste, priced dynamically
-
-Connects grocery stores with customers and NGOs to cut food waste — surplus stock gets
-dynamically discounted before expiry, and what doesn't sell routes to NGOs for free
-distribution. Team project, Java/Spring backend with JaCoCo coverage in CI.
-
-![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white) ![Spring](https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white) ![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black) ![JaCoCo](https://img.shields.io/badge/JaCoCo-C21325?style=flat-square&logo=jest&logoColor=white) &nbsp;`80 Java files` &nbsp;[**live →**](https://ecoplate-gamma.vercel.app) &nbsp;·&nbsp; [**source →**](https://github.com/K-sau07/ecoplate)
-
-### EV Charging System &nbsp;·&nbsp; reserve a charger before you drive there
-
-Full-stack platform for EV owners and station operators. Email-OTP auth, live charging-session
-timers, automated reservation management and integrated billing, over a normalised SQL Server
-schema. The point is not driving out to a charger someone else is already using.
-
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black) ![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black) ![Node](https://img.shields.io/badge/Node.js-5FA04E?style=flat-square&logo=nodedotjs&logoColor=white) ![SQL Server](https://img.shields.io/badge/SQL_Server-CC2927?style=flat-square&logo=microsoftsqlserver&logoColor=white) &nbsp;[**source →**](https://github.com/K-sau07/EV_CHARGING_SYSTEM)
-
-### 👻 &nbsp;Ghost OS &nbsp;·&nbsp; my portfolio is an operating system
-
-Boot sequence, menu bar with working dropdowns, magnifying dock, draggable and resizable
-windows, Spotlight, right-click menus, and a shell you can actually type into. Built from
-scratch — no UI kit.
-
-![Next.js](https://img.shields.io/badge/Next.js_16-000000?style=flat-square&logo=nextdotjs&logoColor=white) ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) ![Framer](https://img.shields.io/badge/Framer_Motion-0055FF?style=flat-square&logo=framer&logoColor=white) ![Tailwind](https://img.shields.io/badge/Tailwind-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white) &nbsp;[**live →**](https://ghost-os-pied.vercel.app) &nbsp;·&nbsp; [**source →**](https://github.com/K-sau07/GhostOS)
-
-### Cloud-Native Auto-Scaling Infrastructure
-
-Multi-environment AWS in Terraform — multi-AZ, IAM roles, KMS encryption, with GitHub Actions
-and Packer building custom AMIs end to end.
-
-![Terraform](https://img.shields.io/badge/Terraform-844FBA?style=flat-square&logo=terraform&logoColor=white) ![AWS](https://img.shields.io/badge/AWS-FF9900?style=flat-square&logo=amazonwebservices&logoColor=white) ![Packer](https://img.shields.io/badge/Packer-02A8EF?style=flat-square&logo=packer&logoColor=white) &nbsp;[**source →**](https://github.com/K-sau07/tf-aws-infrastructure)
+AWS in Terraform with Packer-built AMIs ([code](https://github.com/K-sau07/tf-aws-infrastructure)), an EV charger reservation platform ([code](https://github.com/K-sau07/EV_CHARGING_SYSTEM)), a Transformer written by hand in PyTorch ([Livermore](https://github.com/K-sau07/livermore-trading-bot)), live polling over WebSockets ([SyncPoll](https://github.com/K-sau07/Syncpoll)), and speech turned into generative art ([Sentiment Aura](https://livesentimentaura.vercel.app)).
 
 <br>
 
-## Also built
+---
 
-| | | |
-|:--|:--|:--|
-| [**Sentiment Aura**](https://livesentimentaura.vercel.app) | live speech → sentiment → generative art | `p5.js` `Deepgram` `Groq` |
-| **Livermore** | three models side by side — one a Transformer hand-coded in PyTorch | `Python` `RAG` `PyTorch` |
-| **SyncPoll** | real-time polling where attendance is a by-product of answering | `Java` `WebSocket` |
-| **OpenCodeIntel** | repository-level code understanding | `Python` `TypeScript` |
-| **Webapp + Infra** | Java 21 service on a Terraform-provisioned AWS stack | `Spring Boot 3.2` `S3` |
-| **Selenium Framework** | page-object test framework, AES credential handling | `TestNG` `Maven` |
-| **PackNGo** | travel-logistics application | `Java` |
-
-<br>
-
-## Activity
-
-<div align="center">
-  <img height="150" alt="stats" src="https://github-readme-stats.vercel.app/api?username=K-sau07&show_icons=true&hide_border=true&bg_color=0D1117&title_color=A78BFA&text_color=9BA3B4&icon_color=22D3EE&hide_title=true&include_all_commits=true">
-  <img height="150" alt="languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=K-sau07&layout=compact&hide_border=true&bg_color=0D1117&title_color=A78BFA&text_color=9BA3B4&langs_count=8">
-</div>
-
-<br>
-
-## Now
-
-Shipping **Watchdog** — the interesting part is detection latency: proving a posting is
-genuinely new rather than re-surfaced, and getting it in front of you before the queue fills.
-Next up is TAssist's channel model, so you can publish a curated Q&A surface over your own
-documents without handing the files over.
-
-Day job is backend engineering — Java and Spring Boot, API gateways, batch pipelines, and the
-caching and observability that keep them upright in production.
-
-<br>
-
-<div align="center">
-  <sub><code>MS Computer Software Engineering · Northeastern University · May 2026</code></sub>
-  <br><br>
-  <a href="mailto:saurabh.k@itjobinbox.com"><img src="https://img.shields.io/badge/OPEN_TO_SWE_ROLES-34D399?style=for-the-badge&logoColor=black" alt="Open to SWE roles"></a>
-</div>
+<sub>Java · Spring · Python · TypeScript · Postgres · AWS &nbsp;&nbsp;|&nbsp;&nbsp; [reposensei.com](https://reposensei.com) · [LinkedIn](https://www.linkedin.com/in/saurabh-kashyap-b5a4ab22a/) · [saurabh.k@itjobinbox.com](mailto:saurabh.k@itjobinbox.com) &nbsp;&nbsp;|&nbsp;&nbsp; Open to software engineering roles. Boston, happy to relocate.</sub>
